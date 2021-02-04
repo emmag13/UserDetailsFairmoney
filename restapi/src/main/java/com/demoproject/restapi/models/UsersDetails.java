@@ -8,6 +8,13 @@ public class UsersDetails {
     private String picture;
     private String title;
 
+    public UsersDetails(String id, String lastName, String firstName, String email) {
+        this.id = id;
+        this.lastName = lastName;
+        this.firstName = firstName;
+        this.email = email;
+    }
+
     public String getId() {
         return id;
     }

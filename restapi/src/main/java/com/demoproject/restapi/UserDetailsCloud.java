@@ -22,7 +22,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
- * UserDetails Demo Project
+ * UserDetails
  * <p>
  * Singleton Class.
  *
@@ -40,7 +40,7 @@ public class UserDetailsCloud {
 
 
     /**
-     * Private UserDetails Demo Project constructor.
+     * Private UserDetails constructor.
      *
      * @param context Application Context.
      */
@@ -90,11 +90,15 @@ public class UserDetailsCloud {
         return isConnected;
     }
 
+    public UserDetailsAPI getApiService() {
+        return apiService;
+    }
+
     /**
      * Singleton Get instance method
      *
      * @param context Application Context.
-     * @return UserDetails Demo Project Instance.
+     * @return UserDetails Instance.
      */
     public static UserDetailsCloud getInstance(Context context) {
         if (instance == null) {
