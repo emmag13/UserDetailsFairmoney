@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">userdetails</string>
+    <string name="fairmoney_technical">Fairmoney Technical</string>
+    <string name="fairmoneytechnical_gmail_com">fairmoneytechnical@gmail.com</string>
+    <string name="network_error_swipe_to_refresh">Network Error, Swipe to refresh</string>
+    <string name="no_result_found_nswipe_down_to_try_again">No result found \nSwipe down to try again.</string>
+    <string name="closeBtn">closeBTN</string>
+    <string name="loadingIndicator">loadingIndicator</string>
+    <string name="fullName">Full Name</string>
+    <string name="phone">phone</string>
+    <string name="phoneText">Phone</string>
+    <string name="emailImage">emailImage</string>
+    <string name="email">Email</string>
+    <string name="genderImage">genderImage</string>
+    <string name="gender">Gender</string>
+    <string name="dob">dob</string>
+    <string name="dateOfBirth">Date of Birth</string>
+    <string name="registrationDate">registrationDate</string>
+    <string name="RegistrationDate">Registration Date</string>
+    <string name="location">location</string>
+    <string name="UserLocation">Location</string>
+</resources>
